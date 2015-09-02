@@ -8,6 +8,11 @@ export class Title extends ElementBase {
     this.separator= separator;
   }
 
+  prepend(str) {
+    this.stack.unshift(str);
+    return this;
+  }
+
   queue(str) {
     this.stack.push(str);
     return this;
@@ -44,5 +49,3 @@ export class InlineScript extends ElementBase {
     super('script', {}, content, true);
   }
 }
-
-

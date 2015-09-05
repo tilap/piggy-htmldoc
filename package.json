@@ -1,6 +1,6 @@
 {
   "name": "piggy-htmldoc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Basic Html head/footer and so on dom helper",
   "repository": "tilap/piggy-htmldoc",
   "main": "lib/Parts.js",
